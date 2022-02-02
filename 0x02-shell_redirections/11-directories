@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa | grep -c ^drw
+find . -mindepth 1 -type d | wc -l
