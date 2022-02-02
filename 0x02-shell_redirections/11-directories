@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRA | grep -c ^drw
+ls -lRa | grep -c ^drw
