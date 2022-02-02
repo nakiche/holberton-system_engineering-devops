@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -empty -printf '%P\n' | rev | cut -f 1 -d '/' | rev 
